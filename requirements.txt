@@ -1,0 +1,9 @@
+alembic==1.5.4
+Mako==1.1.4
+MarkupSafe==1.1.1
+-e git+git@github.com:iliadmitriev/profile.git@bc7cfc9131516bd9f1c9b6f65ee2ea4c4c28658a#egg=profiles
+psycopg2==2.8.6
+python-dateutil==2.8.1
+python-editor==1.0.4
+six==1.15.0
+SQLAlchemy==1.3.23

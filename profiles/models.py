@@ -52,6 +52,7 @@ class Profile(Base):
     surname = Column('surname', String(100))
     user_id = Column('user_id', Integer, index=True, unique=True)
     birthdate = Column('birthdate', Date)
+    gender = Column('gender', String(10))
     avatar = Column('avatar', String(200))
 
     def __repr__(self):

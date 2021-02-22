@@ -73,6 +73,9 @@ docker run -d -p 5432:5432 -e POSTGRES_DB=profile \
 ```
 9. edit alembic settings `alembic/env.py` lines 10, 20
    (setup models metadata and database connection)
+   
+https://github.com/iliadmitriev/profile/blob/ae101a57d25eb08b91dc6e6416c819c8cdbf7e2d/alembic/env.py#L17-L18
+     
 ```python
 ...
 config = context.config
